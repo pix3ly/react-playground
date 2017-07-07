@@ -22,7 +22,7 @@ async function action({ fetch }) {
   return {
     chunks: ['home'],
     title: 'React Starter Kit',
-    component: <Layout><Home news={data.news} /></Layout>,
+    component: <Home />,
   };
 }
 
